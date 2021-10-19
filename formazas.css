@@ -4,7 +4,32 @@ body {
     background-repeat: repeat-y;
 
 }
+div.tablazat {
+    margin: auto;
+    width: 250px;;
+}
+table {
+    border-width: 1pt;
+    border-style:solid;
+    
+    border-color: blue;
+    border-collapse: collapse;
+}
+th{
+    background-color: blue;
+    color: white;
+    padding:5px;
+    border-color:white;
+    border-style:solid;
+}
 
+
+td{
+    border-color:white;
+    border-style: solid;
+    text-align: center;
+    padding:5px;
+}
 .container {
     max-width:1000px;
     margin: auto;
